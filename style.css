@@ -1,0 +1,189 @@
+body {
+    font-family: 'mono', monospace;
+    min-height: 854px;
+    background-color: #000000;
+    margin: 0;
+}
+
+div.opacity {
+    background-image: url('https://wallpaperaccess.com/full/215986.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 182%;
+    color: white;
+    position: absolute;
+    z-index: 1;
+  }
+
+  div.opacity::after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+  }
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-logo {
+    height: 130px;
+    width: 400px;
+}
+
+
+.page-title {
+    color: #fcfbd88c;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 0px 0 0px;
+}
+
+button {
+    justify-content: space-around;
+    border-radius: 20px;
+	border: 1px solid #0084ff8e;
+	background-color: #0059ff9f;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	border-color: rgb(79, 79, 255);
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:disabled{
+    opacity: 50%;
+}
+
+button:focus {
+    background: #4369e9;
+	outline: none;
+}
+
+button:hover {
+    background-color: #4369e9;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: rgb(168, 168, 255);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: 70px;
+    border-radius: 22px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    text-align: left;
+    height: 160px;
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 15px 7px;
+}
+
+.resultado-final {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    margin: 30px 0 30px;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.carta-subtitle {
+    color: #000000;
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carta-status p {
+    margin: 20px 7px;
+}
+
+.butoesJogarRecomecar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

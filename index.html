@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Duelo Pokemon
+    </title>
+</head>
+
+<body>
+    <div class="opacity">
+    <div class="container">
+        <img onclick="window.location.reload()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" class="page-logo"
+            alt="">
+            <br><br><br>
+        <h1 class="page-title">Clique em "Sortear Pokémon", escolha um atributo e batalhe com seu oponente.</h1>
+            <br><br>
+        <button onclick="sortearPokemon()" id="btnSortear" style="cursor: pointer;">Sortear Pokémon</button>
+
+        <form id="form">
+            <h2></h2>
+            <div class="opcoes" id="opcoes"></div>
+
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+        </form>
+        <div id="resultado"></div> 
+            <div class="butoesJogarRecomecar">
+        <button type="button" id="btnJogar" onclick="jogar()" disabled="false" style="cursor: pointer;">Batalhar</button>
+        <button onclick="window.location.reload()" style="cursor: pointer;">Recomeçar</button> 
+            </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
