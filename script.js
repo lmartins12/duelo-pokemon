@@ -2,9 +2,9 @@ let pokemon1 = {
     nome: "Mudkip",
     imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
     atributos: {
-        ataque: 50,
-        defesa: 60,
-        especial: 40
+        Ataque: 50,
+        Defesa: 60,
+        Especial: 40
     }
 };
 
@@ -12,9 +12,9 @@ let pokemon2 = {
     nome: "charmander",
     imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     atributos: {
-        ataque: 60,
-        defesa: 30,
-        especial: 60
+        Ataque: 60,
+        Defesa: 30,
+        Especial: 60
     }
 };
 
@@ -22,9 +22,9 @@ let pokemon3 = {
     nome: "chespin",
     imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/650.png",
     atributos: {
-        ataque: 40,
-        defesa: 60,
-        especial: 50
+        Ataque: 40,
+        Defesa: 60,
+        Especial: 50
     }
 };
 
@@ -32,9 +32,9 @@ let pokemon4 = {
     nome: "pikachu",
     imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
     atributos: {
-        ataque: 60,
-        defesa: 30,
-        especial: 60
+        Ataque: 60,
+        Defesa: 30,
+        Especial: 60
     }
 };
 
@@ -42,9 +42,9 @@ let pokemon5 = {
     nome: "eevee",
     imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
     atributos: {
-        ataque: 50,
-        defesa: 50,
-        especial: 50
+        Ataque: 50,
+        Defesa: 50,
+        Especial: 50
     }
 };
 
