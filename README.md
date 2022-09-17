@@ -1,4 +1,4 @@
-# duelo-pokemon
+# Duelo Pokémon
 
 Mini-game de duelo Pokémon baseado em atributos simples. 
 
