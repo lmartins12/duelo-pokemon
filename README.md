@@ -6,4 +6,4 @@ Objetivo principal:
 -Treinar habilidades de Javascript com if/else, array, funções e objetos.
 -Estruturação e estilização da página com HTML e CSS.
 
-Link:
+Link: https://lmartins12.github.io/duelo-pokemon/
