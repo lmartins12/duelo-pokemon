@@ -2,7 +2,7 @@
 
 Mini-game de duelo Pokémon baseado em atributos simples. 
 
-Objetivo principal: 
+Objetivo principal: <br>
 -Treinar habilidades de Javascript com if/else, array, funções e objetos. 
 <br>
 -Estruturação e estilização da página com HTML e CSS.
