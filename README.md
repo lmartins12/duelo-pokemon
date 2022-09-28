@@ -7,4 +7,4 @@ Objetivo principal: <br>
 <br>
 -Estruturação e estilização da página com HTML e CSS.
 
-Link: https://lmartins12.github.io/duelo-pokemon/
+Link:  https://lmartins12.github.io/duelo-pokemon/
