@@ -1,3 +1,7 @@
+*{
+    text-shadow: rgba(0, 0, 0, 0.705) 0.1em 0.1em 0.2em
+}
+
 body {
     font-family: 'mono', monospace;
     min-height: 854px;
@@ -62,6 +66,8 @@ button {
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
 	border-color: rgb(79, 79, 255);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.747);
+    text-shadow: rgba(0, 0, 0, 0.459) 0.1em 0.1em 0.2em
 }
 
 button:active {
@@ -86,6 +92,7 @@ button.ghost {
 	border-color: rgb(168, 168, 255);
 }
 
+
 p {
     font-size: 16px;
     font-weight: 100;
@@ -109,6 +116,7 @@ p {
     background-position-x: 35px;
     background-position-y: 70px;
     border-radius: 22px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.747);
 }
 
 #carta-jogador h3 {
