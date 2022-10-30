@@ -1,6 +1,6 @@
 # Duelo Pokémon
 
-Mini-game de duelo Pokémon baseado em atributos simples. 
+Mini-game de duelo Pokémon baseado em atributos simples.
 
 Objetivo principal: <br>
 -Treinar habilidades de Javascript com if/else, array, funções e objetos. 
